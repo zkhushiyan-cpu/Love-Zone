@@ -1359,15 +1359,19 @@ footer{
     font-size:14px !important;
     line-height:1.5 !important;
 }
+ .hero-content{
+        flex:0.9 !important;
+    }
 
 .hero-image{
-    flex:1 !important;
+   flex:1.5 !important;
+        display:flex;
+        justify-content:flex-end;
 }
 
 .hero-image img{
-    max-width:180px !important;
-    width:100% !important;
-    height:auto !important;
+     max-width:260px !important;
+        width:100%;
 }
 
 .shop-btn{
