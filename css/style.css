@@ -1179,7 +1179,7 @@ footer{
 
 /* ===================================================
    RESPONSIVE DESIGN
-=================================================== 
+=================================================== */
 
 @media (max-width:992px){
 
@@ -1226,27 +1226,6 @@ footer{
 /* =========================
    MOBILE view start
 ========================= */
-
-/* =====================================
-   MOBILE RESPONSIVE - PART 1 mobile ma site ko center man karna
-===================================== */
-
-@media (max-width:768px){
-
-.container{
-    width:100%;
-    max-width:100%;
-    padding:0 15px;
-}
-
-.header .container,
-.hero-area,
-.top-bar .container,
-.nav-menu{
-    width:100%;
-}
-
-}
 
 /* =========================
    MOBILE HEADER
