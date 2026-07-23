@@ -1226,6 +1226,64 @@ footer{
 
 }
 /* ==========================
+   MOBILE View Satting
+========================== */
+/* ==========================
+   MOBILE LOGO + ICONS
+========================== */
+
+.header{
+    display:block;
+    width:100%;
+    padding:12px 15px;
+}
+
+.header .container{
+    display:flex !important;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    flex:1;
+}
+
+.logo a{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.logo-love,
+.logo-zone{
+    font-size:24px;
+}
+
+.logo i{
+    font-size:22px;
+}
+
+.header-icons{
+    display:flex !important;
+    align-items:center;
+    justify-content:flex-end;
+    gap:15px;
+    flex:0 0 auto;
+}
+
+.header-icons a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.header-icons i{
+    font-size:20px;
+}
+/* ==========================
    MOBILE HEADER
 ========================== */
 
