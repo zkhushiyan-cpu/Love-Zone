@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Delay Spray",
+        "price": "Rs. 1,499",
+        "image": "images/product1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Herbal Oil",
+        "price": "Rs. 1,999",
+        "image": "images/product2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Male Tablets",
+        "price": "Rs. 2,499",
+        "image": "images/product3.jpg"
+    },
+    
+    {
+       "id": 4,
+        "name": "Condoms",
+        "price": "Rs. 699",
+        "image": "images/product5.png"
+    }
+]
