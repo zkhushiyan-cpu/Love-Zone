@@ -1233,24 +1233,20 @@ footer{
 
 @media (max-width:768px){
 
-    .top-bar{
-        display:none;
-    }
-
     .header{
-        padding:15px 0;
+        padding:15px;
     }
 
     .header .container{
-        display:flex;
-        flex-wrap:wrap;
-        align-items:center;
+        display:flex !important;
         justify-content:space-between;
-        gap:15px;
+        align-items:center;
+        flex-wrap:nowrap;
     }
 
     .logo{
-        order:1;
+        display:flex;
+        align-items:center;
     }
 
     .logo-love,
@@ -1263,7 +1259,8 @@ footer{
     }
 
     .header-icons{
-        order:2;
+        display:flex;
+        align-items:center;
         gap:15px;
     }
 
@@ -1271,20 +1268,9 @@ footer{
         font-size:22px;
     }
 
+    /* ابھی Search Hide رہے گی */
     .search-box{
-        order:3;
-        width:100%;
-        max-width:100%;
-        margin:0;
-    }
-
-    .search-box input{
-        height:46px;
-        font-size:15px;
-    }
-
-    .search-box button{
-        width:60px;
+        display:none;
     }
 
 }
