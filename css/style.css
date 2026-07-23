@@ -1226,7 +1226,20 @@ footer{
 /* =========================
    MOBILE view start
 ========================= */
+
 /* ===== MOBILE HEADER FIX ===== */
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+.container{
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+    padding:0 15px;
+}
 
 .header{
     display:block !important;
