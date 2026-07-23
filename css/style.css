@@ -1228,60 +1228,110 @@ footer{
 /* ==========================
    MOBILE View Satting
 ========================== */
-/* ==========================
-   MOBILE LOGO + ICONS
-========================== */
+/* ===================================
+   MOBILE HEADER (NEW)
+=================================== */
 
-.header{
-    display:block;
-    width:100%;
-    padding:12px 15px;
+.mobile-header{
+    display:none;
 }
 
-.header .container{
-    display:flex !important;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:nowrap;
-}
+@media (max-width:768px){
 
-.logo{
-    display:flex;
-    align-items:center;
-    flex:1;
-}
+    /* Hide Desktop Elements */
+    .top-bar,
+    .header,
+    .navbar{
+        display:none;
+    }
 
-.logo a{
-    display:flex;
-    align-items:center;
-    gap:8px;
-}
+    /* Show Mobile Header */
+    .mobile-header{
+        display:block;
+        background:#181818;
+        padding:15px;
+    }
 
-.logo-love,
-.logo-zone{
-    font-size:24px;
-}
+    /* Top Row */
 
-.logo i{
-    font-size:22px;
-}
+    .mobile-top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:15px;
+    }
 
-.header-icons{
-    display:flex !important;
-    align-items:center;
-    justify-content:flex-end;
-    gap:15px;
-    flex:0 0 auto;
-}
+    .mobile-logo a{
+        display:flex;
+        align-items:center;
+        gap:8px;
+        text-decoration:none;
+    }
 
-.header-icons a{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
+    .mobile-logo i{
+        font-size:24px;
+        color:#ff2f5b;
+    }
 
-.header-icons i{
-    font-size:20px;
+    .mobile-logo .logo-love,
+    .mobile-logo .logo-zone{
+        font-size:24px;
+        font-weight:700;
+    }
+
+    .mobile-icons{
+        display:flex;
+        gap:16px;
+    }
+
+    .mobile-icons i{
+        font-size:22px;
+        color:#fff;
+    }
+
+    /* Bottom Row */
+
+    .mobile-bottom{
+        display:flex;
+        gap:10px;
+        align-items:center;
+    }
+
+    .mobile-search{
+        flex:1;
+        display:flex;
+    }
+
+    .mobile-search input{
+        width:100%;
+        height:45px;
+        border:none;
+        outline:none;
+        padding:0 12px;
+        border-radius:8px 0 0 8px;
+    }
+
+    .mobile-search button{
+        width:55px;
+        border:none;
+        background:#d4af37;
+        border-radius:0 8px 8px 0;
+    }
+
+    .mobile-category-btn{
+        display:flex;
+        align-items:center;
+        gap:8px;
+        padding:0 15px;
+        height:45px;
+        background:#232323;
+        color:#fff;
+        border:1px solid #d4af37;
+        border-radius:8px;
+        white-space:nowrap;
+        cursor:pointer;
+    }
+
 }
 /* ==========================
    MOBILE HEADER
