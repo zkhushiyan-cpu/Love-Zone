@@ -1179,7 +1179,7 @@ footer{
 
 /* ===================================================
    RESPONSIVE DESIGN
-=================================================== */
+=================================================== 
 
 @media (max-width:992px){
 
@@ -1222,55 +1222,36 @@ footer{
 }
 
 
-
+*/
 /* =========================
    MOBILE view start
 ========================= */
+/* ===== MOBILE HEADER FIX ===== */
 
-/* ==========================
-   MOBILE HEADER - STEP 1
-========================== */
+.header{
+    display:block !important;
+    width:100%;
+    padding:12px 0;
+}
 
-@media (max-width:768px){
+.header .container{
+    display:flex !important;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:nowrap;
+    width:100%;
+}
 
-    .header{
-        padding:15px;
-    }
+.logo{
+    flex:0 0 auto;
+}
 
-    .header .container{
-        display:flex !important;
-        justify-content:space-between;
-        align-items:center;
-        flex-wrap:nowrap;
-    }
+.header-icons{
+    display:flex;
+    flex:0 0 auto;
+    gap:12px;
+}
 
-    .logo{
-        display:flex;
-        align-items:center;
-    }
-
-    .logo-love,
-    .logo-zone{
-        font-size:24px;
-    }
-
-    .logo i{
-        font-size:24px;
-    }
-
-    .header-icons{
-        display:flex;
-        align-items:center;
-        gap:15px;
-    }
-
-    .header-icons i{
-        font-size:22px;
-    }
-
-    /* ابھی Search Hide رہے گی */
-    .search-box{
-        display:none;
-    }
-
+.search-box{
+    display:none;
 }
