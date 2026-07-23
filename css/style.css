@@ -1333,3 +1333,69 @@ footer{
     }
 
 }
+
+
+/* ==========================
+   HERO MOBILE
+========================== */
+
+.hero{
+    padding:30px 15px;
+}
+
+.hero-area{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-image{
+    flex:1;
+    text-align:right;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:180px;
+    height:auto;
+}
+
+/* Text */
+
+.hero-content h5{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.maximum-confidence,
+.maximum-pleasure{
+    font-size:34px;
+    line-height:1.05;
+    font-weight:700;
+}
+
+/* صرف موبائل پر دو لائنیں */
+.maximum-confidence{
+    max-width:140px;
+}
+
+.maximum-pleasure{
+    max-width:140px;
+}
+
+.hero-content p{
+    font-size:14px;
+    line-height:1.6;
+    margin:15px 0;
+}
+
+.shop-btn{
+    display:inline-block;
+    padding:12px 22px;
+    font-size:14px;
+}
