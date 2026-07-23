@@ -1336,13 +1336,14 @@ footer{
    HERO MOBILE FIX
 ========================== */
 
-.hero .container{
-    padding:20px !important;
-    min-height:auto !important;
-}
 
+@media (max-width:768px){
 .hero-area{
     gap:15px !important;
+}
+   .hero .container{
+    padding:20px !important;
+    min-height:auto !important;
 }
 
 .hero-content h5{
