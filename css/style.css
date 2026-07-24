@@ -1413,4 +1413,42 @@ footer{
     }
 
 }
+/* =========================
+   MOBILE SHOP BY CATEGORIES
+========================= */
+
+@media (max-width:768px){
+
+    .shop-category-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 کارڈ */
+        gap:15px;                            /* کارڈز کے درمیان فاصلہ */
+    }
+
+    .shop-category-card{
+        min-height:170px;                    /* کارڈ کی اونچائی */
+        padding:20px 12px;                   /* اندر مناسب جگہ */
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+
+    .shop-category-card i{
+        font-size:36px;                      /* آئیکن سائز */
+        margin-bottom:12px;
+    }
+
+    .shop-category-card h3{
+        font-size:15px;                      /* عنوان */
+        line-height:1.4;
+    }
+
+    .shop-category-title h2{
+        font-size:28px;                      /* موبائل ہیڈنگ */
+        text-align:center;
+    }
+
+}
 
