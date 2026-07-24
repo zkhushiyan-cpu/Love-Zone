@@ -1459,11 +1459,19 @@ footer{
 
 @media (max-width:768px){
 
+     .latest-products-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+    
+    
     .products-grid{
         display:grid;
         grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 پروڈکٹس */
         gap:15px;
     }
+    
 
     .product-card{
         padding:12px;
@@ -1493,6 +1501,7 @@ footer{
         padding:10px;
         font-size:14px;
     }
+    
 
 }
 /* =========================
