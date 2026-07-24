@@ -1420,10 +1420,10 @@ footer{
 ========================= */
 
 @media (max-width:768px){
-
+    
     .shop-category-grid{
         display:grid;
-        grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 کارڈ */
+        grid-template-columns:repeat(2,1fr)  !important; /* ایک لائن میں 2 کارڈ */
         gap:15px;                            /* کارڈز کے درمیان فاصلہ */
     }
 
@@ -1453,6 +1453,7 @@ footer{
     }
 
 }
+
 /* =========================
    MOBILE LATEST PRODUCTS
 ========================= */
