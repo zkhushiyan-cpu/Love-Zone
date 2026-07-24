@@ -1495,3 +1495,35 @@ footer{
     }
 
 }
+/* =========================
+   MOBILE FEATURED PRODUCTS
+========================= */
+
+@media (max-width:768px){
+
+    .featured-products .product-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 */
+        gap:15px;
+    }
+
+    .featured-products .product-card{
+        width:100%;
+    }
+
+    .featured-products .product-card img{
+        height:150px;
+        object-fit:contain;
+    }
+
+    .featured-products .product-card h3{
+        font-size:14px;
+    }
+
+    .featured-products .product-card button{
+        width:100%;
+        padding:10px;
+        font-size:13px;
+    }
+
+}
