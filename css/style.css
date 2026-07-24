@@ -1453,3 +1453,45 @@ footer{
     }
 
 }
+/* =========================
+   MOBILE LATEST PRODUCTS
+========================= */
+
+@media (max-width:768px){
+
+    .products-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 پروڈکٹس */
+        gap:15px;
+    }
+
+    .product-card{
+        padding:12px;
+        border-radius:12px;
+    }
+
+    .product-card img{
+        width:100%;
+        height:150px;            /* تصویر کی اونچائی */
+        object-fit:contain;
+    }
+
+    .product-card h3{
+        font-size:15px;          /* پروڈکٹ کا نام */
+        margin:10px 0 5px;
+    }
+
+    .product-card p{
+        font-size:14px;          /* قیمت */
+        margin-bottom:10px;
+    }
+
+    .product-btn{
+        display:block;
+        width:100%;
+        text-align:center;
+        padding:10px;
+        font-size:14px;
+    }
+
+}
