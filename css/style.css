@@ -1380,5 +1380,37 @@ footer{
     font-size:14px !important;
 }
 }
+/* =========================
+   MOBILE FEATURES
+========================= */
+
+@media (max-width:768px){
+
+    .feature-grid{
+        display:grid;
+        grid-template-columns:repeat(2,1fr); /* ایک لائن میں 2 باکس */
+        gap:15px;                            /* باکس کے درمیان فاصلہ */
+    }
+
+    .feature-box{
+        padding:18px 12px;                   /* اندر مناسب جگہ */
+        text-align:center;                   /* سب درمیان میں */
+    }
+
+    .feature-box i{
+        font-size:24px;                      /* آئیکن سائز */
+        margin-bottom:10px;
+    }
+
+    .feature-box h3{
+        font-size:15px;                      /* عنوان */
+        margin-bottom:6px;
+    }
+
+    .feature-box p{
+        font-size:13px;                      /* پیراگراف */
+        line-height:1.4;
+    }
+
 }
 
