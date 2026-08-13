@@ -988,7 +988,7 @@ HEADER Logo, Search, Right Icon
     border-radius:15px;
     overflow:hidden;
     cursor:pointer;
-    display: flex;
+    text-align:center;
     transition:.35s ease;
 }
 
